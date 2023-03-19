@@ -1,9 +1,9 @@
  "rewrites": [
     {
-      "source": "/blog",
+      "source": "/",
       "destination": "https://hollytrends.online"
     },{
-      "source": "/blog/:match*",
+      "source": "/:match*",
       "destination": "https://hollytrends.online/:match*/"
     }
   ],
